@@ -30,6 +30,8 @@ for i in l:
     sec = int(changeTF(ccc[0]))
     print(filename)
     print(symbol)
+    if symbol == 'BCHSV/USDT':
+        continue
     print(timeframe)
     print(sec)
     print('--------')
