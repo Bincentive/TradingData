@@ -36,7 +36,7 @@ for i in l:
         b.update(filename,symbol,timeframe,sec)
         print('done')
         print('--------')
-    else :
+'''    else :
         sss = i.split("-")
         symbol = sss[1]
         ccc = sss[2].split(".")
@@ -48,4 +48,4 @@ for i in l:
         print(sec)
         b.update(filename,symbol,timeframe,sec)
         print('done')
-        print('--------')
+        print('--------')'''
