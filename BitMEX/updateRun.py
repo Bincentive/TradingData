@@ -1,7 +1,7 @@
 import os
 import updateall as b
 l = []
-cwd = os.getcwd()
+cwd = '/Users/roy/workspace/trading-data/TradingData/BitMEX'
 for i in os.walk(cwd):
     for j in i:
         for k in j:
@@ -22,7 +22,7 @@ def changeTF(tf):
         return 24*60*60
 
 for i in l:
-    filename = i
+    filename = '/Users/roy/workspace/trading-data/TradingData/BitMEX/' + i
     sss = i.split("-")
     if 'ETH' == sss[1] or 'BTC' == sss[1]:
         symbol = sss[1]+'/'+sss[2]
