@@ -1,5 +1,6 @@
 import os
 import update as b
+import fix as f
 l = []
 cwd = '/Users/roy/workspace/trading-data/TradingData/Binance'
 for i in os.walk(cwd):
@@ -37,4 +38,7 @@ for i in l:
     print('--------')
     b.update(filename,symbol,timeframe,sec)
     print('done')
+    print('--------')
+    f.check(filename)
+    print('check ok')
     print('--------')

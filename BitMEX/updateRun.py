@@ -1,5 +1,6 @@
 import os
 import updateall as b
+import fix as f
 l = []
 cwd = '/Users/roy/workspace/trading-data/TradingData/BitMEX'
 for i in os.walk(cwd):
@@ -35,6 +36,9 @@ for i in l:
         print(sec)
         b.update(filename,symbol,timeframe,sec)
         print('done')
+        print('--------')
+        f.check(filename)
+        print('check ok')
         print('--------')
 '''    else :
         sss = i.split("-")
