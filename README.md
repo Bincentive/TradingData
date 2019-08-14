@@ -15,7 +15,7 @@ e.g. bitfinex-BTC-USDT-1d.csv
 - BitMex
    * BTC/USD 
    * ETH/USD
-   * XBT/BTC index
+   * BTC/XBT index
 - Bifitnex
     * BTC/USDT ETH/USDT ETH/BTC 
     * ETH/USDT EOS/USDT ETC/USDT BCH/USDT XRP/USDT LTC/USDT NEO/USDT(only 1d 30m)
